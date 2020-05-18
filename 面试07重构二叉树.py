@@ -20,4 +20,3 @@ class Solution:
         self.po = preorder
         for i in range(len(inorder)):
             self.dic[inorder[i]] = i
-        return self.recur(0,0,len(preorder)-1)
